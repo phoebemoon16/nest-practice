@@ -14,7 +14,7 @@ export class CatsController {
 
     @Post('create')
     create(@Body() createCatDto: CreateCatDto) {
-      return 'This action adds a new cat';
+      return 'This action adds a new cat 999';
     }
 
     @Get() //get请求
