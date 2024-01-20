@@ -1,4 +1,5 @@
 /**
+ * 通过命令行去创建元素
  * nest g module users 去创建user/users.module.ts模块，并自动更新app.module.ts
  * nest g controller users 去创建user/user.controller模块，自动更新users.module.ts
  * nest g service users 去创建user/user.service模块，自动更新users.module.ts
