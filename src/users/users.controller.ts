@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, Param, Patch, Post, Query } from '@nestjs/common';
 
-// servie's have some methods that handle the data, so we need to import ir
+// servie's have some methods that handle the data, so we need to import service
 import { UsersService } from './users.service';
 
 @Controller('users') // /users
